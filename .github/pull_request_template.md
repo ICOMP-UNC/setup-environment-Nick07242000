@@ -10,10 +10,11 @@
 
 ## Checklist
 
-- [x] Tests Executed
-- [x] Sonarqube Analysis Performed
-- [x] Documentation Updated
-- [x] Peer Reviewed
+- [x] :white_check_mark: Tests Executed
+- [x] :satellite: Sonarqube Analysis Performed
+- [x] :wrench: Project Compiled
+- [x] :scroll: Documentation Updated
+- [x] :guardsman: Peer Reviewed
 
 ## Notes
 

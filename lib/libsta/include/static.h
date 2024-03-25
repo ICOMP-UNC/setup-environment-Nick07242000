@@ -4,4 +4,4 @@
  * @brief Demo for static libraries
  * 
 */
-void salute();
+void static_salute();

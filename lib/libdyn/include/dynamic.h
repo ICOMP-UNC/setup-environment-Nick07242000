@@ -4,4 +4,4 @@
  * @brief Demo for dynamic libraries
  * 
 */
-void salute();
+void dynamic_salute();

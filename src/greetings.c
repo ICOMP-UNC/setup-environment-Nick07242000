@@ -2,5 +2,5 @@
 #include <stdio.h>
 
 void greet() {
-    printf("Bonjour Monsieur 🥐");
+    printf("Bonjour Monsieur 🥐\n");
 }

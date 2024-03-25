@@ -21,6 +21,10 @@ file(GLOB_RECURSE SOURCES "src/*.c")
 # Defines name and source for executable
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-# Defines paths for libraries
+# Defines paths for libraries compilation
 add_subdirectory(lib/libsta)
 add_subdirectory(lib/libdyn)
+
+# Defines paths for libraries headers
+target_include_directories(${PROJECT_NAME} PUBLIC lib/libsta/include)
+target_include_directories(${PROJECT_NAME} PUBLIC lib/libdyn/include)

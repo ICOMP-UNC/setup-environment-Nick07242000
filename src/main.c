@@ -1,6 +1,7 @@
 #include "greetings.h"
 
-void main(int argc, char* argv[]) {
+void main(int argc, char* argv[])
+{
     greet();
     return 0;
 }

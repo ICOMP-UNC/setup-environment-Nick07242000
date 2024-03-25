@@ -30,4 +30,4 @@ target_include_directories(${PROJECT_NAME} PUBLIC lib/libsta/include)
 target_include_directories(${PROJECT_NAME} PUBLIC lib/libdyn/include)
 
 # Link libraries
-target_link_libraries(${PROJECT_NAME} StatiCLib DynamiCLib)
+target_link_libraries(${PROJECT_NAME} static_library dynamic_library)

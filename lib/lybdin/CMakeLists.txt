@@ -1,9 +1,9 @@
 cmake_minimum_required (VERSION 3.25 FATAL_ERROR)
 
 project(
-    "static_library"
+    "dynamic_library"
     VERSION 0.0.1
-    DESCRIPTION "Static_library demo"
+    DESCRIPTION "Dynamic_library demo"
     LANGUAGES C
 )
 

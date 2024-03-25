@@ -3,7 +3,7 @@
 #include "static.h"
 #include "dynamic.h"
 
-void main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     greet();
     dynamic_salute();

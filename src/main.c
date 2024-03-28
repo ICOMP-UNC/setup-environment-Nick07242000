@@ -1,7 +1,12 @@
 #include "greetings.h"
 
-void main(int argc, char* argv[])
+#include "static.h"
+#include "dynamic.h"
+
+int main(int argc, char* argv[])
 {
     greet();
+    dynamic_salute();
+    static_salute();
     return 0;
 }
